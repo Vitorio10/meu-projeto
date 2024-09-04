@@ -2,7 +2,7 @@ import HelloWorld from './components/HelloWorld';
 import './App.css';
 import SayMyName  from './components/SayMyName';
 import Pessoa from './components/Pessoa';
-
+import List from './components/List';
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
       <SayMyName nome='João'/>
       <SayMyName nome={name}/>
       <Pessoa nome='Tais' idade='19' profissao='Engenheira' foto='https://via.placeholder.com/150'/>
+      <List/>
     </div>
   );
 }
